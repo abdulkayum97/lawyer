@@ -1,0 +1,327 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(54, 34, 111);
+    font-weight: 600;
+}
+
+.hero {
+    background-image: url("../images/hero.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero_content {
+    min-height: 90vh;
+}
+
+.hero h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 62px;
+    font-weight: 600;
+}
+
+.about {
+    padding: 100px 0;
+}
+
+.about span {
+    width: 50px;
+    height: 3px;
+    display: block;
+    background-color: #e76128;
+}
+
+.about h2 {
+    color: #33417c;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.about p {
+    color: #bab5b2;
+    font-size: 16px;
+}
+
+.what_we_do {
+    padding: 100px 0;
+    background-color: #FBFBFB;
+    background-image: url(../images/what-we-do-bg.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.what_we_do span {
+    width: 50px;
+    height: 3px;
+    display: block;
+    background-color: #e76128;
+    margin: auto;
+}
+
+.what_we_do h2 {
+    color: #3a1372;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 100px;
+
+}
+
+
+.what_we_do .item {
+    position: relative;
+}
+
+.what_we_do .item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,36226f+100&0+0,1+100 */
+    background: -moz-linear-gradient(top, rgba(30, 87, 153, 0) 0%, rgba(54, 34, 111, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(30, 87, 153, 0) 0%, rgba(54, 34, 111, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 0%, rgba(54, 34, 111, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001e5799', endColorstr='#36226f', GradientType=0);
+    /* IE6-9 */
+    transition: .4s all ease-in-out;
+}
+
+.what_we_do .item:hover::before {
+    height: 100%;
+}
+
+.what_we_do .item img {
+    width: 100%;
+}
+
+.what_we_do .content {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+
+.what_we_do .item:hover .content {
+    opacity: 1;
+    top: 50%;
+}
+
+
+.what_we_do .content h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.what_we_do .icon {
+    position: absolute;
+    left: 30%;
+    bottom: 50px;
+    transform: translate(-50%);
+    color: white;
+    font-size: 30px;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+
+.what_we_do .item:hover .icon {
+    opacity: 1;
+    left: 50%;
+}
+
+.our_attorneys {
+    background-image: url(../images/our-attorneys-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+.our_attorneys_left {
+    padding-top: 100px;
+}
+
+.our_attorneys span {
+    width: 50px;
+    height: 3px;
+    display: block;
+    background-color: #e76128;
+}
+
+.our_attorneys h3 {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.our_attorneys p {
+    color: #a3a0cc;
+}
+
+.our_attorneys a {
+    color: #e76128;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.our_attorneys .attorneys_item {
+    position: relative;
+}
+
+.our_attorneys .attorneys_item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,36226f+100&0+0,1+100 */
+    background: -moz-linear-gradient(top, rgba(30, 87, 153, 0) 0%, rgba(54, 34, 111, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(30, 87, 153, 0) 0%, rgba(54, 34, 111, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 0%, rgba(54, 34, 111, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001e5799', endColorstr='#36226f', GradientType=0);
+    /* IE6-9 */
+    transition: .4s all ease-in-out;
+}
+
+.our_attorneys .attorneys_item:hover::before {
+    height: 100%;
+}
+
+
+.our_attorneys .attorneys_item img {}
+
+.our_attorneys .attorneys_content {
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    color: white;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+
+.our_attorneys .attorneys_item:hover .attorneys_content {
+    opacity: 1;
+    bottom: 30px;
+}
+
+
+.our_attorneys .attorneys_content h4 {
+    font-size: 24px;
+}
+
+.the_language {
+    padding: 100px 0;
+}
+
+.the_language span {
+    width: 50px;
+    height: 3px;
+    display: block;
+    background-color: #e76128;
+    margin: auto;
+}
+
+.the_language h2 {
+    color: #3a1372;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+}
+
+.the_language h4 {
+    color: #36226f;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.the_language p {
+    color: #bab5b3;
+}
+
+.the_language a {
+    color: #e76129;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact {
+    background-color: #36226F;
+    padding: 100px 0;
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+    color: white;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ec6b29;
+    border: none;
+    padding: 10px 80px;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    background-color: #e76128;
+}
+
+footer {
+    background: #16102b;
+    padding: 50px 0;
+}
+
+footer p {
+    color: #6c64a0;
+    margin: 0;
+    font-weight: 600;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    text-align: right;
+    justify-content: end;
+    margin-bottom: 0;
+}
+
+footer ul li {
+    margin-left: 20px;
+}
+
+footer ul li a {
+    color: #6c64a0;
+}
